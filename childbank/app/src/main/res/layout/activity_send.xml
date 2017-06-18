@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.masaya3.childbank.SendActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="送金先を選択してください"
+                android:textColor="@color/textColor" />
+
+            <Spinner
+                android:id="@+id/target"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="送金額を選択してください"
+                android:textColor="@color/textColor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/valueView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="111111"
+                    android:textColor="@color/textColor"
+                    android:textSize="36dp" />
+
+                <TextView
+                    android:id="@+id/unitView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:text="田中円"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/button7"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:background="@drawable/button_style"
+                        android:text="7"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/button8"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="24dp"
+                        android:background="@drawable/button_style"
+                        android:text="8"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/button9"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+
+                        android:background="@drawable/button_style"
+                        android:text="9"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/button4"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+
+                        android:background="@drawable/button_style"
+                        android:text="4"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/button5"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="24dp"
+
+                        android:background="@drawable/button_style"
+
+                        android:text="5"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/button6"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+
+                        android:background="@drawable/button_style"
+                        android:text="6"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/button1"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:background="@drawable/button_style"
+                        android:text="1"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/button2"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="24dp"
+
+                        android:background="@drawable/button_style"
+                        android:text="2"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/button3"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:background="@drawable/button_style"
+                        android:text="3"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/button0"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:background="@drawable/button_style"
+                        android:text="0"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/buttonBack"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="24dp"
+                        android:background="@drawable/button_style"
+                        android:text="×"
+                        android:textColor="@android:color/white"
+                        android:gravity="center"
+
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/buttonSend"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:background="@drawable/button_style"
+                        android:gravity="center"
+                        android:text="送金"
+                        android:textColor="@android:color/white"
+
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:background="#E0E0E0"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/history"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/history" />
+
+            <ImageView
+                android:id="@+id/nfc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/nfc" />
+
+            <ImageView
+                android:id="@+id/send"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/send" />
+
+            <ImageView
+                android:id="@+id/output"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/output" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

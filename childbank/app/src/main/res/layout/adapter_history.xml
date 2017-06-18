@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/typeLayout"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="3dp"
+            android:text="入"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:background="#FA5858"
+            android:id="@+id/typeView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="振込）父より、母へ"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+
+            android:id="@+id/detailView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017/06/20 12:30"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:id="@+id/dayView" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="400"
+        android:gravity="right"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+
+        android:id="@+id/valueView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="田中円"
+        android:gravity="bottom"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+
+        android:id="@+id/unitView" />
+</LinearLayout>

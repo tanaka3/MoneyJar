@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MoneyJar</string>
+    <string name="hisotryIn">入</string>
+    <string name="hisotryOut">出</string>
+    <string name="hisotryNFC">N</string>
+    <string name="hisotrySend">送</string>
+
+    <string name="detailIn">入金）%1sから振込</string>
+    <string name="detailOut">換金）現金に換金</string>
+    <string name="detailNFC">チャージ）NFCカードへ</string>
+    <string name="detailSend">送金）%1sへ送金</string>
+
+
+    <string name="history_lastdate"> 更新日時：%1s</string>
+
+    <!--
+    <string name="list_url">http://27.133.152.165:8080/childbank/transactions/list?pid=</string>
+    <string name="wallets_url">http://b51da8c0.ngrok.io/api/wallets/</string>
+    <string name="execute_url">http://b51da8c0.ngrok.io/api/transactions/execute/</string>
+    <string name="history_url">http://b51da8c0.ngrok.io/api/transactions/history/</string>
+    <string name="charge_url">http://b51da8c0.ngrok.io/api/transactions/charge/</string>
+    <string name="input_url">http://b51da8c0.ngrok.io/api/transactions/exchange/</string>
+    <string name="users_url">http://b51da8c0.ngrok.io/api/users/</string>
+    -->
+    <string name="list_url">http://27.133.152.165:3000/childbank/transactions/list?pid=</string>
+    <string name="wallets_url">http://27.133.152.165:3000/api/wallets/</string>
+    <string name="execute_url">http://27.133.152.165:3000/api/transactions/execute/</string>
+    <string name="history_url">http://27.133.152.165:3000/api/transactions/history/</string>
+    <string name="charge_url">http://27.133.152.165:3000/api/transactions/charge/</string>
+    <string name="input_url">http://27.133.152.165:3000/api/transactions/exchange/</string>
+    <string name="users_url">http://27.133.152.165:3000/api/users/</string>
+
+</resources>
